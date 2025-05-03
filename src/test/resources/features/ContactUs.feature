@@ -5,7 +5,7 @@ Feature: Contact Us Feature
    |username|password|
    |nabanita@gmail.com|test123@|
 
-
+@Regression
 Scenario Outline: Contact Us scenario with different sets of data
  Given user navigates to contact us page
  When user fills the form given sheetName "<SheetName>" and rownum <RowNumber>

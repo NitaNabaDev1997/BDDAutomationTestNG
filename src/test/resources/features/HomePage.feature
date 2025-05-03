@@ -1,3 +1,4 @@
+@Regression
 Feature: Account Page Feature
 
   Background:
@@ -5,13 +6,13 @@ Feature: Account Page Feature
       |username|password|
       |nabanita@gmail.com|test123@|
 
-  @accounts
+  @accounts @Smoke
   Scenario: Accounts page title
     Given user is on Home page
     When user gets the title of the page
     Then page title should be "Automation Exercise"
 
-  @accounts
+  @accounts @Smoke
   Scenario: Accounts section count
     Given user is on Home page
     Then user gets HomePage section

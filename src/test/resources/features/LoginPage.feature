@@ -1,4 +1,4 @@
-
+@Regression
 Feature: Login Page feature
 
 #
@@ -15,7 +15,7 @@ Feature: Login Page feature
 #    |Wish List (0)|
 #    |Checkout|
 
-
+@Smoke @Regression
   Scenario: Login page title
     Given user is on login page
     When user gets the title of the page
