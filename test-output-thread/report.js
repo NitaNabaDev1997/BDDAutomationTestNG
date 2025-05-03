@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"9f8d64a3-a641-44da-b98f-76ba9d7b9ea1","feature":"Contact Us Feature","scenario":"Contact Us scenario with different sets of data","start":1746249445600,"group":34,"content":"","tags":"","end":1746249466433,"className":"passed"},{"id":"075dab91-ed45-45f2-8aa7-156138ac7e72","feature":"Contact Us Feature","scenario":"Contact Us scenario with different sets of data","start":1746249445599,"group":35,"content":"","tags":"","end":1746249479553,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":34,"content":"Thread[#34,TestNG-PoolService-1,5,main]"},{"id":35,"content":"Thread[#35,TestNG-PoolService-2,5,main]"}]);
+});
