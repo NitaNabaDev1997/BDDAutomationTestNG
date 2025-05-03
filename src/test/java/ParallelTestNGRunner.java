@@ -1,10 +1,13 @@
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 
-@CucumberOptions(features = "src/test/resources/features",
+
+@Listeners(Utility.TestListener.class)
+@CucumberOptions(features = "src/test/resources/features/LoginPage.feature",
         glue = "StepDefinitions",
-        tags = "@Regression",
+       // tags = "@Regression",
         plugin = {"pretty","html:target/cucumber-reports.html","json:target/cucumber.json"
                 ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
                 ,"timeline:test-output-thread/"
